@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- MANIFEST -->
+    <link rel="manifest" href="manifest.json">
+
+    <title>HoodTees</title>
+  </head>
+
+  <body>
+    <!--========================== HEADER ===========================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="" class="nav__logo"> 
+          <img src="assets/img/logo.png" alt="logo">HoodTees</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link" active-link>Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#colls" class="nav__link">Collection</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#shop" class="nav__link">Shop</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__actions">
+          <i class="ri-user-line"></i>
+          <i class="ri-shopping-cart-line"></i>
+
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--========================== MAIN ===========================-->
+    <main class="main">
+      <!--========================== HOME ===========================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <img src="assets/img/mockup1.png" alt="image" class="home__img" />
+
+          <div class="home__data">
+            <h1 class="home__title">
+              Bingung Cari T-shirt atau Hoddie?
+              <span class="auto-input"></span> 
+            </h1>
+
+            <p class="home__description">
+              Toko kami memberikan harga murah tetapi dengan kualitas bahan
+              premium. Jadi jangan ragu untuk membeli di toko kami.
+            </p>
+
+            <div class="home__buttons">
+              <a href="#" class="button">
+                <span>
+                  <i class="ri-arrow-right-line"></i>
+                </span>
+                BELI SEKARANG
+
+                <a href="#" class="button__link">SELENGKAPNYA</a>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <aside>
+          <div class="social-media">
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/hudrii-ye-34a09b293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="ri-linkedin-fill"></i></a>
+              </li>
+              <li>
+                <a href="https://www.github.com/hudri07"><i class="ri-github-line"></i></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/hudri366"><i class="ri-instagram-fill"></i></a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </section>
+
+      <!--========================== collS ===========================-->
+      <section class="coll section" id="colls">
+        <div class="coll__container container grid">
+          <div class="coll__data">
+            <h2 class="section__title">
+              KOLEKSI T-SHIRT ATAU HODDIE <br />
+              TOKO KAMI
+            </h2>
+
+            <p class="coll__description">
+              Pilih T-shirt atau Hoddie untuk kamu koleksi dirumahmu. Cocok
+              digunakan untuk OOTD di kampus ataupun hangout.
+            </p>
+          </div>
+          <div class="gallery-section">
+            <div class="gallery-item">
+              <img src="assets/img/mockup1.png" alt="img-2x2" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/img/mockup2.png" alt="img-2x2" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/img/mockup3.png" alt="img-2x2" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/img/mockup4.png" alt="img-2x2" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/img/mockup5.png" alt="img-2x2" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/img/mockup6.png" alt="img-2x2" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/img/mockup7.png" alt="img-2x2" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/img/mockup8.png" alt="img-2x2" />
+            </div>
+            <div class="gallery-item">
+              <img src="assets/img/mockup9.png" alt="img-2x2" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--========================== SHOP ===========================-->
+      <section class="shop section" id="shop">
+        <h2 class="section__title">FAVORIT DI TOKO KAMI</h2>
+
+        <div class="shop__container container grid">
+          <article class="shop__card">
+            <img src="assets/img/mockup3.png" alt="image" class="shop__img" />
+
+            <h3 class="shop__title">T-Shirt Holidays</h3>
+            <span class="shop__price">Idr 50k</span>
+
+            <button class="shop__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="shop__card">
+            <img src="assets/img/mockup4.png" alt="image" class="shop__img" />
+
+            <h3 class="shop__title">
+              T-Shirt <br />
+              Fallen
+            </h3>
+            <span class="shop__price">Idr 50k</span>
+
+            <button class="shop__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="shop__card">
+            <img src="assets/img/mockup5.png" alt="image" class="shop__img" />
+
+            <h3 class="shop__title">
+              T-shirt <br />
+              Steeping Spirit
+            </h3>
+            <span class="shop__price">Idr 50k</span>
+
+            <button class="shop__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="shop__card">
+            <img src="assets/img/mockup1.png" alt="image" class="shop__img" />
+
+            <h3 class="shop__title">Hoddie <br /></h3>
+            <span class="shop__price">Idr 100k</span>
+
+            <button class="shop__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="shop__card">
+            <img src="assets/img/mockup2.png" alt="image" class="shop__img" />
+
+            <h3 class="shop__title">Hoddie<br /></h3>
+            <span class="shop__price">Idr 100k</span>
+
+            <button class="shop__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <!--========================== CONTACT ===========================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">
+          INGIN T-SHIRT & HODDIE <br />
+          HUBUNGI KAMI
+        </h2>
+
+        <div class="contact__container container grid">
+          <img src="assets/img/mockup2.png" alt="image" class="contact__img" />
+          <form action="#" class="contact__form grid" id="contact">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="" class="contact__label">Name</label>
+                <input name="name" id="name" type="text" class="contact__input">
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">Email</label>
+                <input name="email" id="email" type="email" class="contact__input">
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">Message</label>
+                <textarea name="message" id="message" cols="0" rows="7" class="contact__input" name="message"></textarea>
+              </div>
+              <button type="submit" class="button button--flex">
+                Send Message
+                <i class="uil uil-message button__icon"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--========================== FOOTER ===========================-->
+    <footer class="footer">
+      <div class="footer__bg">
+          <div class="footer__container container grid">
+              <div>
+                  <h1 class="footer__title">Asmalik Hudri</h1>
+                  <span class="footer__subtitle">Mahasiswa STMIK Tegal</span>
+              </div>
+              <ul class="footer__links">
+                  <li>
+                      <a href="#colls" class="footer__link">Collection</a>
+                  </li>
+                  <li>
+                      <a href="#shop" class="footer__link">Shop</a>
+                  </li>
+                  <li>
+                      <a href="#contact" class="footer__link">Contact me</a>
+                  </li>
+              </ul>
+              <div class="footer__socials">
+                  <a href="https://www.instagram.com/hudri366" target="_blank" class="footer__social">
+                      <i class="uil uil-instagram"></i></a>
+                  </a>
+                  <a href="https://github.com/hudri07" target="_blank" class="footer__social">
+                      <i class="uil uil-github-alt"></i></a>
+                  </a>
+                  <a href="https://twitter.com/Saeep33" target="_blank" class="footer__social">
+                      <i class="uil uil-twitter-alt"></i></a>
+                  </a>
+              </div>
+          </div>
+          <p class="footer__copy">&copy; 2024 Hudry | All Rights Reserved</p>
+      </div>
+  </footer>
+
+    <!--========================== SCROLL UP ========================-->
+    <a href="" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--========================== SCROLLREVEAL ========================-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--========================== MAIN JS ==========================-->
+    <script src="assets/js/main.js"></script>
+
+    <!--=================== Animated text ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- IndexedDB -->
+     <script src="indexedDB.js"></script>
+     
+    <script>
+      var typed = new Typed(".auto-input", {
+          strings: [
+              "Ayo Beli Di Toko Kami ",
+          ],
+          typeSpeed: 100,
+          backSpeed: 100,
+          loop: true,
+      });
+    </script>
+
+    <script>
+      window.addEventListener("load", () => {
+          if ("serviceWorker" in navigator) {
+              navigator.serviceWorker
+                  .register('sw.js') // Pastikan jalur ini benar
+                  .then((registration) => {
+                      console.log("ServiceWorker registered with scope:", registration.scope);
+                  })
+                  .catch((error) => {
+                      console.log("ServiceWorker registration failed:", error);
+                  });
+          }
+      });
+    </script>
+
+  </body>
+</html>
